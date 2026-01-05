@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://newlinelabs.com/sitemap.xml
