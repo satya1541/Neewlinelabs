@@ -14,6 +14,7 @@ import circuitImage from '@assets/generated_images/Circuit_design_schematic_2450
 import embeddedCodingImage from '@assets/generated_images/Embedded_systems_coding_ac150653.png';
 import modelTrainingImage from '@assets/generated_images/Model_training_visualization_3f9c0a41.png';
 import uiuxImage from '@assets/generated_images/UX_design_workspace_a0fca40f.png';
+import socialMediaImage from '@assets/generated_images/social_media_marketing.png';
 
 const services = [
   {
@@ -85,6 +86,11 @@ const services = [
     image: marketingImage,
     title: "Digital Marketing",
     description: "Data-driven marketing strategies and campaigns that amplify your brand's digital presence.",
+  },
+  {
+    image: socialMediaImage,
+    title: "Social Media Marketing",
+    description: "Boost your brand's presence, engagement, and reach across major social media platforms.",
   },
 ];
 

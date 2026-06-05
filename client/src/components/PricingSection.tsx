@@ -95,6 +95,26 @@ export default function PricingSection() {
       testId: "other-services",
       isContactUs: true,
     },
+    {
+      name: "Social Media Marketing",
+      price: "Let's Talk",
+      priceSubtext: "Tailored to your budget",
+      description: "Comprehensive social media marketing & management",
+      features: [
+        "Social media strategy & audit",
+        "Content creation & copywriting",
+        "Custom graphics & media design",
+        "Platform management (FB/IG/LI/X)",
+        "Daily/weekly posts & scheduling",
+        "Audience engagement & replies",
+        "Ad campaign setup & management",
+        "Performance tracking & reports",
+      ],
+      cta: "Get a Quote",
+      highlighted: false,
+      testId: "social-media-marketing",
+      isContactUs: true,
+    },
   ];
 
   return (
@@ -112,7 +132,7 @@ export default function PricingSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-w-7xl mx-auto">
           {plans.map((plan) => (
             <Card
               key={plan.name}

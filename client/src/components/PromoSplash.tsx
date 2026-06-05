@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import promoImage from '@assets/generated_images/winter_technology_sale_promotional_banner.png';
+import promoImage from '@assets/generated_images/monsoon_technology_sale_promotional_banner.png';
 
 export default function PromoSplash() {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,7 +56,7 @@ export default function PromoSplash() {
       >
         <img
           src={promoImage}
-          alt="Winter Offer - 50% OFF"
+          alt="Monsoon Offer - 50% OFF"
           className="w-full h-auto object-contain"
           data-testid="promo-splash-image"
         />

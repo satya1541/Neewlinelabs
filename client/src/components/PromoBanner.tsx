@@ -22,7 +22,7 @@ export default function PromoBanner() {
             <div className="flex items-center gap-2">
               <Sparkles className="h-5 w-5 md:h-6 md:w-6 text-yellow-300" />
               <span className="text-lg md:text-2xl font-bold text-white" data-testid="promo-banner-title">
-                Winter offer:
+                Monsoon offer:
               </span>
             </div>
             
@@ -32,7 +32,7 @@ export default function PromoBanner() {
               </span>
               <div className="hidden md:block h-8 w-px bg-white/30"></div>
               <span className="text-sm md:text-base text-white/90" data-testid="promo-banner-dates">
-                Jan 1 - March 31
+                June 1 - August 31
               </span>
             </div>
             

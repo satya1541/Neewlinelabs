@@ -38,7 +38,7 @@ export default function ClaimOfferPage() {
             </CardTitle>
             
             <CardDescription className="text-lg md:text-xl text-gray-300">
-              Winter offer valid from Jan 1 - March 31
+              Monsoon offer valid from June 1 - August 31
             </CardDescription>
           </CardHeader>
 
